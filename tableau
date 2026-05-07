@@ -1,0 +1,12 @@
+rom tabulate import tabulate
+title=["name","age","dept"]
+data=[["raj",19,"cse"],
+      ["aksh",16,"aiml"],
+      ["meera",21,"csd"],
+      ["ravi",39,"it"]]
+res=tabulate(data,headers=title,tablefmt="pretty")
+print(res)
+with open("shruthi.txt", "w") as file:
+    file.write(res)
+print("done")
+
