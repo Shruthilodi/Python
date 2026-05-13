@@ -1,0 +1,9 @@
+a=open("shruthi.txt","w")
+n1=int(input("enter a number 1: "))
+n2=int(input("enter a number 2: "))
+s=n1+n2
+a.write(str(n1)+"\n")
+a.write(str(n2)+"\n")
+a.write(str(s)+"\n")
+print("ok")
+a.close()
