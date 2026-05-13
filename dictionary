@@ -1,0 +1,9 @@
+d={'name':'gill','age':45,'runs':4500}
+for i in d.items():
+  print(i)
+for i in d.keys():
+  print(i)
+d['dept']='cse'
+print(d)
+d['marks']=[2,3,4]
+print(d['marks'][1])
