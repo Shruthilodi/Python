@@ -1,0 +1,8 @@
+a={2,3,45,5}
+b={4,32,34,3,1,2,3}
+
+print(a.union(b))
+print(a&b)#intersection
+print(a|b)#union
+print(a^b)#not comman
+print(a-b)
