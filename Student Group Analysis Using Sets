@@ -1,0 +1,20 @@
+maths=["raj","anu","kiran","bala","pavi"]
+political=['raj','bala','meera','peter','ken']
+social=['ben','raj','meera']
+a=set(maths)
+b=set(political)
+c=set(social)
+one=list(a&b&c)
+print(one)
+
+print(a&c&b)#3 subjects
+#2sub
+x=(a&b)
+y=(b&c)
+z=(a&c)
+print(x)
+print(y)
+print(z)
+two=(x&y&z)-(a&b&c)
+print(list(two))
+print(a-b-c)
