@@ -1,0 +1,11 @@
+
+a=int(input("enter a no 1: "))
+b=int(input("enter a no 1: "))
+big=max(a,b)
+step=big
+while(True):
+  if big%a==0 and big%b==0:
+    break
+  else:
+    big=big+step
+print(big)
